@@ -8,7 +8,6 @@
             "email": "inforeazul@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "psr-4": {
         "Reazul\\Datetime\\": "packages/reazul/datetime/src"
