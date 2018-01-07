@@ -1,11 +1,11 @@
 <?php
 
-namespace Collective\Html;
+namespace Reazul\Datetime;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Collective\Html\FormBuilder
+ * @see \Reazul\Datetime\
  */
 class DateTimeFacade extends Facade
 {
