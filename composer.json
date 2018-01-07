@@ -1,5 +1,5 @@
 {
-    "name": "reazul/datetime",
+    "name": "reazulackosoft/datetime",
     "description": "Datetime helper for laravel",
     "type": "composer-plugin",
     "license": "MIT",
