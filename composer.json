@@ -1,14 +1,35 @@
 {
-    "name": "muradreazul/datetime",
-    "description": "Datetime helper for laravel",
-    "type": "composer-plugin",
-    "license": "MIT",
+    "name":        "reazul/datetime",
+    "type":        "library",
+    "description": "A library to help with creating downloads for files in PHP",
+    "keywords":    ["download"],
+    "homepage":    "https://github.com/apfelbox/PHP-File-Download",
+    "license":     "BSD-3-Clause",
     "authors": [
         {
-            "name": "Reazul Islam",
-            "email": "reazul@ackosoft.com"
+            "name":     "Reazul",
+            "email":    "inforeazul@gmail.com",
+            "homepage": "http://apfelbox.net"
         }
     ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reazul\\Datetime\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reazul\\Datetime\\DateTimeHelperProvider"
+            ],
+            "aliases": {
+                "Reazul": "Reazul\\Datetime\\Facade"
+            }
+        }
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
