@@ -1,5 +1,5 @@
 {
-    "name":        "reazul-islam/datetime",
+    "name":        "reazulackosoft/datetime",
     "type":        "library",
     "description": "A library to help with creating downloads for files in PHP",
     "keywords":    ["download"],
