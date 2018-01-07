@@ -1,5 +1,5 @@
 {
-    "name":        "reazulackosoft/datetime",
+    "name":        "reazul/datetime",
     "type":        "library",
     "description": "A library to help with creating downloads for files in PHP",
     "keywords":    ["download"],
@@ -17,7 +17,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Reazul\\Datetime\\": "packages/reazul/datetime/src"
+            "Reazul\\Datetime\\": "src/"
         }
-    }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Reazul\\Datetime\\DateTimeHelperProvider"
+        ],
+        "aliases": {
+          "Reazul": "Reazul\\Datetime\\Facade"
+        }
+      }
+    },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
