@@ -1,16 +1,18 @@
 {
-    "name": "reazul/datetime",
-    "description": "Date time helper",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Reazul Islam",
-            "email": "inforeazul@gmail.com"
-        }
-    ],
-    "require": {},
-    "psr-4": {
-        "Reazul\\Datetime\\": "packages/reazul/datetime/src"
-    },
-    "minimum-stability": "dev"
+  "name": "reazul/datetime",
+  "description": "Date time helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reazul Islam",
+      "email": "inforeazul@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "reazul/datetime": "@dev"
+  },
+  "psr-4": {
+    "Reazul\\Datetime\\": "packages/reazul/datetime/src"
+  }
 }
