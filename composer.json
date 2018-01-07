@@ -12,6 +12,6 @@
     "psr-4": {
         "Reazul\\Datetime\\": "packages/reazul/datetime/src"
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "prefer-stable": false,
 }
