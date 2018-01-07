@@ -26,7 +26,7 @@
                 "Reazul\\Datetime\\DateTimeHelperProvider"
             ],
             "aliases": {
-                "Reazul": "Reazul\\Datetime\\Facade"
+                "Reazul": "Reazul\\Datetime\\DateTimeFacade"
             }
         }
     },
