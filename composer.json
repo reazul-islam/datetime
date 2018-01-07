@@ -1,5 +1,5 @@
 {
-    "name": "reazul/datetime",
+    "name": "muradreazul/datetime",
     "description": "Datetime helper for laravel",
     "type": "composer-plugin",
     "license": "MIT",
@@ -9,5 +9,6 @@
             "email": "reazul@ackosoft.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
