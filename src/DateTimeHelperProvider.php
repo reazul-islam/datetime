@@ -24,7 +24,7 @@ class DateTimeHelperProvider extends ServiceProvider
     public function register()
     {
         $this->app->make('Reazul\Datetime\DateTime');
-        $this->app->alias('datetime', DateTimeFacade::class);
+        $this->app->alias('datetime', Reazul\Datetime\DateTimeFacade::class);
 
     }
 }
